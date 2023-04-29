@@ -1,0 +1,10 @@
+#nop 01 对初始战斗测试脚本
+
+#delay {3} {
+    #delay {0.5} {#send a ?????};
+    #delay {1} {#send sh ???};
+    #delay {1.5} {#send f ???};
+    #delay {10} {#send p 0};
+    #delay {11.5} {#send p 0};
+    #delay {13} {#send q};
+  };
