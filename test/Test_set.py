@@ -2,7 +2,7 @@
 Author: Donald Duck tang5722917@163.com
 Date: 2022-09-13 01:05:58
 LastEditors: Donald Duck tang5722917@163.com
-LastEditTime: 2023-04-29 14:13:33
+LastEditTime: 2023-05-16 01:42:08
 FilePath: /Auto_test_tool/test/Test_set.py
 Description:Test set class
 Copyright (c) 2022 by Donald Duck email: tang5722917@163.com, All Rights Reserved.
@@ -48,8 +48,8 @@ class Test_set:
         self.Number_test_script = int(config['Test_script']['Number_test_script'])
         logging.info('script test set '+ self.set_name +' includes '+str(self.Number_test_script) + ' test scripts.')
         for i in range(0,self.Number_test_script):
-            Name_test_cir = config['Test_cir_'+str(i)]['Name_test_script_'+str(i)]
-            Info_test_cir = config['Test_cir_'+str(i)]['Info_test_script_'+str(i)]
+            Name_test_cir = config['Test_script_'+str(i)]['Name_test_script_'+str(i)]
+            Info_test_cir = config['Test_script_'+str(i)]['Info_test_script_'+str(i)]
             testcir = Test_script(Name_test_cir,Info_test_cir,self.test_config,self.set_path)
             self.script_list.append(testcir)
 

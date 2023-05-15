@@ -13,5 +13,3 @@
 #action {请输入你的登录ID} {username};
 #action {请输入密码}{password}
 #class login_in close
-
-#read {test/00/01.tt};

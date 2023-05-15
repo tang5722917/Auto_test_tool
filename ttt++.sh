@@ -9,4 +9,4 @@
  # Copyright (c) 2023 by Donald Duck email: tang5722917@163.com, All Rights Reserved.
 ### 
 
-tt++ -G setup.tt
+tt++ -G $1
