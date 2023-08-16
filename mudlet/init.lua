@@ -13,7 +13,7 @@ function ReloadEven(event)
     SysReset()
     dofile(Lua_path..'init.lua')
 end
-
+Con_path = Test_path.."MUD/"
 --Lua_path LUA 环境目录
 dofile(Lua_path .. "config.lua")
 dofile(Lua_path .. "sys/SysLog.lua")
