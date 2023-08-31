@@ -1,0 +1,9 @@
+#[object] 测试对象名 USER 表示当前USER对象
+#[func] 测试函数名
+#[input] 输入参数   
+## <int> <string> <array> <map> <object> 表示输入参数类型
+## input 之后每一行放置一个输入参数
+
+[object] USER
+[func] 
+[input]
