@@ -29,7 +29,10 @@ dofile(Lua_path .. "sys/SysLog.lua")
 dofile(Lua_path .. "sys/SysKey.lua")
 dofile(Lua_path .. "sys/SysReset.lua")
 dofile(Lua_path .. "sys/sys_init.lua")
---导入UI文件
+--导入UI
 dofile(Lua_path .. "UI/UI_init.lua")
+
+-- 导入测试相关
+dofile(Lua_path .. "test/text_read.lua")
 
 dofile(Lua_path .. "main.lua")

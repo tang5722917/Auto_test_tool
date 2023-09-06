@@ -1,11 +1,11 @@
 --[[
-Author: Tangzp tang5722917@163.com
-Date: 2023-01-31 06:01:59
-LastEditors: Tangzp tang5722917@163.com
-LastEditTime: 2023-02-02 08:56:50
-FilePath: \mudlet_-auto-robot\Sys\SysFun\pkuxkx_Complex_Trigger.lua
-Description:
-Copyright (c) 2023 by ${git_name} email: ${git_email}, All Rights Reserved.
+Author: Donald duck tang5722917@163.com
+Date: 2023-08-31 17:37:05
+LastEditors: Donald duck tang5722917@163.com
+LastEditTime: 2023-09-06 19:28:15
+FilePath: \Auto_test_tool\mudlet\Object\Complex_Trigger.lua
+Description: 
+Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserved.
 --]]
 
 

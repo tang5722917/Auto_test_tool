@@ -1,12 +1,13 @@
 --[[
 Author: Donald duck tang5722917@163.com
-Date: 2023-06-19 17:13:19
+Date: 2023-08-31 17:37:05
 LastEditors: Donald duck tang5722917@163.com
-LastEditTime: 2023-06-19 17:15:12
-FilePath: \yh-mudlet\Sys\Object\SysObject.lua
-Description: Object 基类
+LastEditTime: 2023-09-06 19:31:16
+FilePath: \Auto_test_tool\mudlet\Object\SysObject.lua
+Description: 
 Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserved.
 --]]
+
 
 -- 定义类型
 Object = {};

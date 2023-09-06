@@ -1,12 +1,13 @@
 --[[
-Author: Tangzp tang5722917@163.com
-Date: 2023-01-30 08:34:12
-LastEditors: Tangzp tang5722917@163.com
-LastEditTime: 2023-01-30 23:31:41
-FilePath: \mudlet_-auto-robot\Sys\SysFun\pkuxkx_Trigger_Base.lua
-Description:
-Copyright (c) 2023 by ${git_name} email: ${git_email}, All Rights Reserved.
+Author: Donald duck tang5722917@163.com
+Date: 2023-08-31 17:37:05
+LastEditors: Donald duck tang5722917@163.com
+LastEditTime: 2023-09-06 19:29:33
+FilePath: \Auto_test_tool\mudlet\Object\Trigger_Base.lua
+Description: 
+Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserved.
 --]]
+
 
 -- 元类
 Object:subclass("Trigger_Base")

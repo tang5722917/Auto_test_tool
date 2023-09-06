@@ -1,18 +1,9 @@
 --[[
 Author: Donald duck tang5722917@163.com
-Date: 2023-06-15 20:00:11
+Date: 2023-08-31 17:37:05
 LastEditors: Donald duck tang5722917@163.com
-LastEditTime: 2023-06-19 17:13:00
-FilePath: \yh-mudlet\Sys\sys_send.lua
-Description: 
-Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserved.
---]]
---[[
-Author: Donald duck tang5722917@163.com
-Date: 2023-06-15 20:00:11
-LastEditors: Donald duck tang5722917@163.com
-LastEditTime: 2023-06-15 20:00:41
-FilePath: \yh-mudlet\Sys\sys_send.lua
+LastEditTime: 2023-09-06 18:27:56
+FilePath: \Auto_test_tool\mudlet\sys_send.lua
 Description: 
 Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserved.
 --]]

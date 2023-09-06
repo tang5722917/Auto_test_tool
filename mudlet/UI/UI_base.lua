@@ -1,12 +1,13 @@
 --[[
-Author: Donald Duck tang5722917@163.com
-Date: 2022-10-04 02:50:29
-LastEditors: Donald Duck tang5722917@163.com
-LastEditTime: 2022-10-04 02:50:33
-FilePath: /mudlet_-auto-robot/UI/pkuxkx_UI_base.lua
-Description: UI界面
-Copyright (c) 2022 by Donald Duck email: tang5722917@163.com, All Rights Reserved.
+Author: Donald duck tang5722917@163.com
+Date: 2023-08-31 16:56:45
+LastEditors: Donald duck tang5722917@163.com
+LastEditTime: 2023-09-06 19:30:50
+FilePath: \Auto_test_tool\mudlet\UI\UI_base.lua
+Description: 
+Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserved.
 --]]
+
 
 GUI = GUI or {}
 
