@@ -23,12 +23,17 @@ dofile(Lua_path .. "Object/SysFun_table.lua")
 dofile(Lua_path .. "Object/Task_Base.lua")
 dofile(Lua_path .. "Object/Task_Control.lua")
 dofile(Lua_path .. "Object/Timer_Base.lua")
+dofile(Lua_path .. "Object/Action.lua")
+dofile(Lua_path .. "Object/Test.lua")
 
 dofile(Lua_path .. "config.lua")
 dofile(Lua_path .. "sys/SysLog.lua")
 dofile(Lua_path .. "sys/SysKey.lua")
 dofile(Lua_path .. "sys/SysReset.lua")
 dofile(Lua_path .. "sys/sys_init.lua")
+dofile(Lua_path .. "sys/sys_send.lua")
+
+dofile(Lua_path .. "sys/sys_EventHandler.lua")
 --导入UI
 dofile(Lua_path .. "UI/UI_init.lua")
 

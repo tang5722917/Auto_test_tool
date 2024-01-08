@@ -10,8 +10,6 @@ Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserve
 sys_cmd = sys_cmd or {}
 sys_cmd.cmd_queue_normal = sys_cmd.cmd_queue_normal or {}
 
-registerAnonymousEventHandler("CMD_clk_event_normal", "sys_cmd.SendHandle_normal")
-
 function sys_cmd.SendHandle_normal(event,is_cmdtime)
   if not (#sys_cmd.cmd_queue_normal == 0) then
     if not (sys_cmd.cmd_queue_normal[1] == nil) then
