@@ -7,8 +7,10 @@ FilePath: \Auto_test_tool\mudlet\Object\Test.lua
 Description:  测试类，用于构建一次测试
 Copyright (c) 2024 by Donald duck email: tang5722917@163.com, All Rights Reserved.
 --]]
-function Test_end_test(event, test)
+
+function test_end_fun(event, test)
     test.end_test();
+    echo("测试end_test")
 end
 
 
@@ -25,13 +27,9 @@ function Test:new(instance)
     instance.test_action_num = 0
 end
 
-function Test.prototype:new_action()
-    local action_obj = Action("Test Action")
-    return action_obj
-end
-
-function Test.prototype:add_action(action_obj)
-    table.insert(self.test_action,action_obj)
+function Test.prototype:add_action(action_obj,test_obj)
+    table.insert(self.test_action, action_obj)
+    action_obj:add_supper_test(test_obj)
 end
 
 function Test.prototype:next_ins()
@@ -40,13 +38,13 @@ function Test.prototype:next_ins()
     if not (#self.test_action == 0) then
         next_obj = self.test_action[1]
         if not (next_obj == nil) then
-            next_obj.action()
+            next_obj:action()
         end
     else
-        raiseEvent("test_end_test", self)
+        raiseEvent("Test_end_fun", self)
     end
 end
 
 function Test.prototype:end_test()
-    echo("End Test")
+    Log.output("End Test")
 end
