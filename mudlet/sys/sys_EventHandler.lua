@@ -10,5 +10,5 @@ Copyright (c) 2024 by Donald duck email: tang5722917@163.com, All Rights Reserve
 
 registerAnonymousEventHandler("CMD_clk_event_normal", "sys_cmd.SendHandle_normal")
 
-registerAnonymousEventHandler("next_test_ins", "Auction_next_ins")
-registerAnonymousEventHandler("test_end_test", "Test_end_test") 
+registerAnonymousEventHandler("Action_end_ins", "action_end_ins")
+registerAnonymousEventHandler("Test_end_fun", "test_end_fun") 

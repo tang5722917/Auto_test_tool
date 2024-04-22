@@ -2,13 +2,11 @@
 Author: Donald duck tang5722917@163.com
 Date: 2023-08-31 17:37:05
 LastEditors: Donald duck tang5722917@163.com
-LastEditTime: 2023-09-06 19:29:58
+LastEditTime: 2024-01-09 09:24:08
 FilePath: \Auto_test_tool\mudlet\Object\Timer_Base.lua
 Description: 
-Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserved.
+Copyright (c) 2024 by Donald duck email: tang5722917@163.com, All Rights Reserved.
 --]]
-
-
 
 -- 元类
 Object:subclass("Timer")
@@ -32,19 +30,19 @@ function Timer.prototype:tempTimer(time,code,repeating)
     table.insert(self.timer_list,tRt)
 end
 
-function Timer.prototype:enableTimer()
+function Timer.prototype:enable()
     for i, v in pairs(self.timer_list) do
         enableTimer(v)
     end
 end
 
-function Timer.prototype:disableTimer()
+function Timer.prototype:disable()
     for i, v in pairs(self.timer_list) do
         disableTimer(v)
     end
 end
 
-function Timer.prototype:killTimer()
+function Timer.prototype:kill()
     for i, v in pairs(self.timer_list) do
         killTimer(v)
     end

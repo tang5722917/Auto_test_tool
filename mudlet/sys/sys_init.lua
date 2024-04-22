@@ -10,13 +10,13 @@ Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserve
 
 Sys_init = Sys_init or {}
 
-Sys_init.Task_list = Task_list("pkuxkx System task list")
-Log.echo("Build pkuxkx System task list", 1)
+Sys_init.Task_list = Task_list("System task list")
+Log.echo("Build System task list", 1)
 
-Sys_init.Init_task = Task("pkuxkx System initial task")
-Log.echo("Build pkuxkx System initial task", 1)
+Sys_init.Init_task = Task("System initial task")
+Log.echo("Build System initial task", 1)
 
-Sys_init.Init_timer = Timer("pkuxkx System initial timer")
+Sys_init.Init_timer = Timer("System initial timer")
 
 Sys_init.Init_timer:tempTimer(fast_time,function() raiseEvent("CMD_clk_event_fast", true) end, true)
 --  一般send指令节拍

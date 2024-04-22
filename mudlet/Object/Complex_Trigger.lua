@@ -24,7 +24,7 @@ function ComplexTrigger.prototype:tempMultiRegexTrigger(name, regex, code, multi
     table.insert(self.tri_list,temp)
 end
 
-function ComplexTrigger.prototype:enableTrigger()
+function ComplexTrigger.prototype:enable()
     for i, v in ipairs(self.tri_list) do
         if tempComplexRegexTrigger(v[1], v[2], v[3], v[4], 0, 0, 0, 0, 0, 0, 0, v[5],v[6]) == false then
             Log.echo("Create Trigger False",1)
@@ -32,14 +32,14 @@ function ComplexTrigger.prototype:enableTrigger()
     end
 end
 
-function ComplexTrigger.prototype:disableTrigger()
+function ComplexTrigger.prototype:disable()
     for i, v in ipairs(self.tri_list) do
         if ((killTrigger(v[1])) ~=false) then
             self.tri_num = self.tri_num - 1 end
         end
 end
 
-function ComplexTrigger.prototype:killTrigger()
+function ComplexTrigger.prototype:kill()
 
     for i, v in ipairs(self.tri_list) do
             if ((killTrigger(v[1])) ~= false) then

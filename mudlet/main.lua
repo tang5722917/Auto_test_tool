@@ -10,4 +10,9 @@ Copyright (c) 2023 by Donald duck email: tang5722917@163.com, All Rights Reserve
 
 Read_mud_text(Con_path .. "00/01_Init_Combat/01_Init_Combat.tt")
 
+local test_t = Test("test1")
+local t1 = Action("Action", test_t)
+t1:add_timer(2)
+test_t:add_action(t1,test_t)
+t1:start()
 Log.echo("诡秘世界自动测试脚本加载完成",0)

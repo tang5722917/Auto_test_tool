@@ -42,37 +42,37 @@ end
 
 function Task.prototype:enable_tri_obj()
     for i, v in pairs(self.tri_obj_list) do
-        v:enableTrigger()
+        v:enable()
     end
 end
 
 function Task.prototype:disable_tri_obj()
     for i, v in pairs(self.tri_obj_list) do
-        v:disableTrigger()
+        v:disable()
     end
 end
 
 function Task.prototype:kill_tri_obj()
     for i, v in pairs(self.tri_obj_list) do
-        v:killTrigger()
+        v:kill()
     end
 end
 
 function Task.prototype:enable_timer_obj()
     for i, v in pairs(self.timer_obj_list) do
-        v:enableTimer()
+        v:enable()
     end
 end
 
 function Task.prototype:disable_timer_obj()
     for i, v in pairs(self.timer_obj_list) do
-        v:disableTimer()
+        v:disable()
     end
 end
 
 function Task.prototype:kill_timer_obj()
     for i, v in pairs(self.timer_obj_list) do
-        v:killTimer()
+        v:kill()
     end
 end
 
